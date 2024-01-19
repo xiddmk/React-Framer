@@ -22,7 +22,7 @@ const Cart = ({ data, refrence }) => {
 
 
                     {data.tag.isOpen && (
-                        <div className={`tag w-full py-4 bg-${data.clr}-600 flex items-center justify-center`}>
+                        <div className={`tag w-full py-4 bg-red-600 flex items-center justify-center`}>
                             <h3 className="text-sm font-semibold">{data.tag.tagTitle}</h3>
                         </div>
                     )}
